@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 // simple hello world
 app.get('/', (req, res) => {
-  res.send('Hello World — original message');
+  res.send('Hello World — updated message');
 });
 
 // optional metrics endpoint for Prometheus (Task 5)
